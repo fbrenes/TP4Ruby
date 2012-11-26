@@ -1,0 +1,64 @@
+<HTML>
+	<HEAD>
+			<TITLE> Resultados del Buscador </TITLE>
+	</HEAD>
+	<BODY background="http://st.gdefon.ru/wallpapers_original/wallpapers/71456_spokojnyj_neulovimyj_svet_2560x1600_%28www.GdeFon.ru%29.jpg" text= "eeeeee">
+		<CENTER><img src="http://www.veryicon.com/icon/png/Internet%20%26%20Web/Social%20Media%201/flickr.png" width="120" height="120"></CENTER>
+		<H1><CENTER>Resultado de la búsqueda:</CENTER></H1><HR>
+		<div id="container1">
+		<P>	
+		<img src= <%= $img1 %> height="200px" width="200px">
+			<p>
+				Titulo: <%= $tit1 %><br>Autor: <%= $aut1 %></br>
+			</p>
+		<img src= <%= $img2 %> height="200px" width="200px">
+			<p>
+				Titulo: <%= $tit2 %><br>Autor: <%= $aut2 %></br>
+			</p>
+		<img src= <%= $img3 %> height="200px" width="200px">
+			<p>
+				Titulo: <%= $tit3 %><br>Autor: <%= $aut3 %></br>
+			</p>
+		</P>
+		<br></br>
+		<P>
+		<img src= <%= $img4 %> height="200px" width="200px">
+			<p>
+				Titulo: <%= $tit4 %><br>Autor: <%= $aut4 %></br>
+			</p>
+		<img src= <%= $img5 %> height="200px" width="200px">
+			<p>
+				Titulo: <%= $tit5 %><br>Autor: <%= $aut5 %></br>
+			</p>
+		<img src= <%= $img6 %> height="200px" width="200px">
+			<p>
+				Titulo: <%= $tit6 %><br>Autor: <%= $aut6 %></br>
+			</p>
+		</br>
+		</div>
+<CENTER><P>
+		<div id="Siguiente">
+		<P>
+		<form  action="/siguiente2" method="post">
+			<input type="submit" value="Siguiente">
+		</P>
+		</form>
+		</div>
+		<div id="Anterior">
+		<P>
+		<form  action="/anterior" method="post">
+			<input type="submit" value="Anterior">
+		</P>
+		</form>
+		</div>
+		<div id="Volver_a_buscar">
+		<P>
+		<form  action="/" method="post">
+			<input type="submit" value="Volver a Intentar">
+		</P>
+		</form>
+		</div>
+</P></CENTER>
+		
+	</BODY>
+</HTML>

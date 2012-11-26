@@ -1,0 +1,26 @@
+<HTML>
+	<HEAD>
+			<TITLE>Buscador de imagenes en Flickr</TITLE>
+	</HEAD>
+	<CENTER><img src= "http://www.veryicon.com/icon/png/Internet%20%26%20Web/Social%20Media%201/flickr.png" alt= "logo"></CENTER>
+	<BODY background="http://st.gdefon.ru/wallpapers_original/wallpapers/71456_spokojnyj_neulovimyj_svet_2560x1600_%28www.GdeFon.ru%29.jpg"> <!--para añadir un color de bgcolor= '45aFad'--> 
+		<H1><CENTER>Buscador de imagenes</CENTER></H1>
+		<HR WIDTH=55% SIZE=4>
+			<H3><CENTER>Introduzca una palabra o frase para realizar la busqueda de imagenes.</CENTER></H3>
+			<P>
+		<div id="contenido">
+		<form  action="/resultados" method="post">
+			<CENTER><input type="text" name="campo" value="Escriba aqui" size="50"></CENTER>
+			<br>
+			<CENTER><H4>Cantidad de imagenes a mostrar:</H4>
+			<input type="text" name="numeros" value="12" size="1"></CENTER>
+			<P>
+			<CENTER><input type="submit" value="Buscar imagenes" width="400" height="70"></CENTER>
+			</P>
+		</form>
+		</div>
+			</P>
+		<HR WIDTH=77% SIZE=4>
+		<H4><CENTER>Todos los derechos reservados ®. Yader Morales, Frank Brenes, Mercedes Escalante. © 2012</CENTER></H6>
+	</BODY>
+</HTML>
